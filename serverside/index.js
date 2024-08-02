@@ -14,7 +14,7 @@ const port = process.env.PORT || 8080;
 
 // Middleware
 app.use(cors({
-    origin: 'https://hiringyou.000webhostapp.com/', // Frontend URL
+    origin: 'http://localhost:3000', // Frontend URL
     credentials: true,
 }));
 app.use(cookieParser());
